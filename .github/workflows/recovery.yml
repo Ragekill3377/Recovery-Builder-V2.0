@@ -6,8 +6,6 @@ on:
       - master
     paths:
       - '.config'
-  schedule:
-    - cron: 0 8 * * 5
 
 env:
   MANIFEST: https://github.com/SHRP/manifest.git -b shrp-12.1
